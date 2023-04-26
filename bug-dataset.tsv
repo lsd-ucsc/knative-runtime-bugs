@@ -1,0 +1,103 @@
+closed	createdAt	number	title	url	research tags
+No	02/06/2023 11:35 AM (UTC)	13677	Defective revision can lead to pods never being removed	https://github.com/knative/serving/issues/13677	autoscaling, routing / traffic, status-conditions, version-semantics
+No	12/06/2022 2:36 PM (UTC)	13531	Activator not updating healthy pods when probe fails	https://github.com/knative/serving/issues/13531	routing / traffic, status-conditions, version-semantics
+No	11/30/2022 4:13 PM (UTC)	13525	503s During Activator Add/Remove from the Path and KSVC Scale Events	https://github.com/knative/serving/issues/13525	config-challenge
+Yes	11/19/2022 2:27 AM (UTC)	13487	Old revision does not scale down when TargetBurstCapacity set to 0	https://github.com/knative/serving/issues/13487	autoscaling
+No	09/23/2022 8:57 PM (UTC)	13331	Queing requests with 2 ready pods and containerConcurrency=1, number of activators = 2	https://github.com/knative/serving/issues/13331	routing / traffic
+No	08/12/2022 10:00 AM (UTC)	13204	Revision reconciler always updates the Kubernetes Deployment	https://github.com/knative/serving/issues/13204	control-plane
+No	07/26/2022 7:46 PM (UTC)	13157	Failed revisions can cause unlimited pods to be rapidly created 	https://github.com/knative/serving/issues/13157	status-conditions
+No	06/22/2022 1:36 PM (UTC)	13053	Knative Service failing to become ready if label is confused with annotation	https://github.com/knative/serving/issues/13053	status-conditions
+Yes	06/14/2022 6:52 PM (UTC)	13036	Garbage collection not running	https://github.com/knative/serving/issues/13036	autoscaling
+No	06/12/2022 10:30 PM (UTC)	13028	`h2c` services aren't scaling to zero	https://github.com/knative/serving/issues/13028	autoscaling
+Yes	05/25/2022 4:48 PM (UTC)	12966	Autoscaling to zero is broken	https://github.com/knative/serving/issues/12966	autoscaling, config-challenge
+Yes	05/04/2022 6:17 PM (UTC)	12912	queue-proxy stops serving traffic after application pod restarts in Knative 1.x	https://github.com/knative/serving/issues/12912	controller-interactions, status-conditions
+No	04/18/2022 2:59 PM (UTC)	12865	Queue Proxy does not exit after draining and server shutdown	https://github.com/knative/serving/issues/12865	autoscaling
+No	03/15/2022 8:00 AM (UTC)	12734	Activator LB doesn't work well	https://github.com/knative/serving/issues/12734	routing / traffic
+No	03/03/2022 8:07 PM (UTC)	12691	Initial Revisions (at least) with crash-looping pods take a long time to terminate/clean up Pods	https://github.com/knative/serving/issues/12691	status-conditions, version-semantics
+Yes	02/03/2022 4:37 PM (UTC)	12593	With min-scale > 1 and activator only the first pod receive traffic	https://github.com/knative/serving/issues/12593	config-challenge, routing / traffic
+Yes	01/31/2022 12:38 PM (UTC)	12571	Readiness probe fails if the container restarts after a liveness probe fail	https://github.com/knative/serving/issues/12571	controller-interactions, status-conditions
+Yes	01/31/2022 3:49 AM (UTC)	12569	503 on new revision	https://github.com/knative/serving/issues/12569	routing / traffic
+Yes	01/20/2022 11:05 PM (UTC)	12538	When using a preemptible node pool, preemption events cause rollback to previous revision	https://github.com/knative/serving/issues/12538	control-plane, status-conditions, version-semantics
+Yes	01/04/2022 10:34 PM (UTC)	12474	Webhook YAML causes constant config drift	https://github.com/knative/serving/issues/12474	control-plane
+Yes	12/29/2021 8:54 AM (UTC)	12462	Liveness probe failing with 400	https://github.com/knative/serving/issues/12462	status-conditions
+Yes	12/15/2021 11:27 PM (UTC)	12440	Pods fail to schedule and see churn/thrashing when running Knative Serving on an autoscaled Kubernetes cluster	https://github.com/knative/serving/issues/12440	control-plane, controller-interactions
+Yes	12/09/2021 3:19 PM (UTC)	12414	Queue proxy unexpected timeout and 502 response	https://github.com/knative/serving/issues/12414	routing / traffic
+Yes	12/08/2021 11:52 AM (UTC)	12409	when the replicase of the autoscaler component bigger than 1, I got an error	https://github.com/knative/serving/issues/12409	config-challenge, control-plane
+No	10/28/2021 11:45 AM (UTC)	12188	The status of Route/Ksvc is not updated even when KCert is updated	https://github.com/knative/serving/issues/12188	config-challenge, control-plane, status-conditions
+Yes	09/06/2021 8:54 AM (UTC)	11926	With default settings, a single request causes flipping activator in/out of path with min-scale=2	https://github.com/knative/serving/issues/11926	config-challenge, routing / traffic
+Yes	09/06/2021 7:47 AM (UTC)	11923	knative marked revision as Failed immediately with k8s schedule error	https://github.com/knative/serving/issues/11923	control-plane
+No	09/03/2021 1:58 PM (UTC)	11916	Service lets you point traffic at revisions it does not own	https://github.com/knative/serving/issues/11916	config-challenge
+Yes	08/27/2021 8:30 AM (UTC)	11877	When Istio-injection is enabled in knative-serving, Activator/Autoscaler not able to connect to the pods of other namespace. (with Istio v1.9.x)	https://github.com/knative/serving/issues/11877	config-challenge
+Yes	07/16/2021 4:26 PM (UTC)	11693	Readiness Problem using handle exec probes in scale from zero 	https://github.com/knative/serving/issues/11693	controller-interactions, status-conditions
+Yes	06/24/2021 2:29 PM (UTC)	11596	502 errors with Istio Mesh	https://github.com/knative/serving/issues/11596	routing / traffic
+No	06/15/2021 4:36 PM (UTC)	11532	targetBurstCapacity does not behave correctly when there is more than one activator pod	https://github.com/knative/serving/issues/11532	routing / traffic
+Yes	06/07/2021 1:26 PM (UTC)	11476	Service with invalid URL hangs in `IngressNotConfigured` state	https://github.com/knative/serving/issues/11476	status-conditions
+Yes	05/19/2021 1:38 PM (UTC)	11373	Traffic is briefly routed suboptimally when new Revision becomes ready	https://github.com/knative/serving/issues/11373	routing / traffic, status-conditions
+Yes	05/13/2021 8:20 AM (UTC)	11337	Revision state set to "ready" for unhealthy user-container	https://github.com/knative/serving/issues/11337	status-conditions
+Yes	05/12/2021 5:28 PM (UTC)	11335	TLS Gateway config does not persist	https://github.com/knative/serving/issues/11335	config-challenge, config-difficulty
+No	04/19/2021 9:34 AM (UTC)	11218	minScale treatment races reachability check	https://github.com/knative/serving/issues/11218	controller-interactions
+Yes	04/12/2021 1:18 AM (UTC)	11154	Autoscaler falls back to scrape service 	https://github.com/knative/serving/issues/11154	autoscaling
+Yes	03/31/2021 7:54 PM (UTC)	11092	Revisions might be underscaled on upgrade (and every deployment change)	https://github.com/knative/serving/issues/11092	autoscaling
+Yes	03/18/2021 12:38 PM (UTC)	10973	Pod-startup regression due to probing periods	https://github.com/knative/serving/issues/10973	controller-interactions, status-conditions
+Yes	02/23/2021 6:59 PM (UTC)	10838	Unable to opt-out of aggressive probing	https://github.com/knative/serving/issues/10838	status-conditions
+Yes	02/23/2021 1:50 PM (UTC)	10835	Revisions with no traffic remain forever active with Google Cloud Run on GKE	https://github.com/knative/serving/issues/10835	autoscaling, version-semantics
+Yes	02/22/2021 10:24 AM (UTC)	10826	Trivial to evade maxScaleLimit	https://github.com/knative/serving/issues/10826	config-challenge, version-semantics
+Yes	02/12/2021 5:05 PM (UTC)	10764	User-specified readiness probes with periodSeconds>0 should not be ignored	https://github.com/knative/serving/issues/10764	status-conditions
+Yes	02/05/2021 10:11 PM (UTC)	10710	Rollout stuck when rolloutDuration > 0 and enable-virtualservice-status = true	https://github.com/knative/serving/issues/10710	config-difficulty
+Yes	01/12/2021 1:25 PM (UTC)	10528	knative autoscaller scale to zero failure	https://github.com/knative/serving/issues/10528	autoscaling, routing / traffic
+No	01/11/2021 2:17 AM (UTC)	10511	Knative reconcile fails in-middle, but be `ready` eventually for service creation	https://github.com/knative/serving/issues/10511	control-plane, controller-interactions, status-conditions
+Yes	01/07/2021 6:34 AM (UTC)	10499	traffic splitting between two ksvc	https://github.com/knative/serving/issues/10499	config-difficulty
+No	12/11/2020 7:50 PM (UTC)	10355	Pods created due to initialScale doesn't follow scaleDownDelay behavior	https://github.com/knative/serving/issues/10355	autoscaling, config-challenge
+Yes	12/10/2020 5:10 PM (UTC)	10344	Newly created Services fail with "RevisionMissing"	https://github.com/knative/serving/issues/10344	config-difficulty
+Yes	12/04/2020 9:49 AM (UTC)	10267	State of a failing revision is not carry-forwarded to the CR status and the logs 	https://github.com/knative/serving/issues/10267	control-plane, invocation-semantics, status-conditions
+Yes	12/03/2020 12:42 PM (UTC)	10259	Revision gets stuck in ResolvingDigests step	https://github.com/knative/serving/issues/10259	config-difficulty
+Yes	11/16/2020 10:13 AM (UTC)	10115	Waiting for load balancer to be ready for consecutive service deployments	https://github.com/knative/serving/issues/10115	config-difficulty
+Yes	11/12/2020 7:19 AM (UTC)	10098	Autoscaler pod informer can't sync when the total pod info in the cluster is huge	https://github.com/knative/serving/issues/10098	autoscaling
+Yes	11/11/2020 8:11 AM (UTC)	10085	user-container can serve large workload but queue-proxy can server much less	https://github.com/knative/serving/issues/10085	routing / traffic
+Yes	11/06/2020 6:41 AM (UTC)	10051	Update profiling.enable in configmap config-observability will trigger all ksvc pod recreating	https://github.com/knative/serving/issues/10051	control-plane
+Yes	10/30/2020 5:34 AM (UTC)	9990	Nodes upgrade failure due to Activator PDB	https://github.com/knative/serving/issues/9990	config-difficulty
+Yes	10/21/2020 7:32 AM (UTC)	9888	There are some 502 errors when ksvc scales from zero	https://github.com/knative/serving/issues/9888	config-difficulty
+No	10/19/2020 5:59 AM (UTC)	9857	Failed to sync with `ReplicaFailure` in ksvc creation sometimes	https://github.com/knative/serving/issues/9857	autoscaling, controller-interactions, invocation-semantics, status-conditions
+Yes	10/08/2020 12:03 PM (UTC)	9736	Duplicate Revisions with the same configurationGeneration label	https://github.com/knative/serving/issues/9736	control-plane, controller-interactions
+No	10/07/2020 5:38 PM (UTC)	9727	Intermediate "Ingress Reconciliation failed" event received during reconciliation	https://github.com/knative/serving/issues/9727	controller-interactions, status-conditions
+No	09/22/2020 11:31 PM (UTC)	9531	Autoscaling in Knative and in the Cluster	https://github.com/knative/serving/issues/9531	control-plane, controller-interactions
+Yes	09/16/2020 2:20 PM (UTC)	9432	Revision does not spin up when not enough resources	https://github.com/knative/serving/issues/9432	autoscaling, control-plane
+Yes	09/11/2020 6:32 PM (UTC)	9373	Traffic generation coalesces configNames into single target even if they have different tags	https://github.com/knative/serving/issues/9373	routing / traffic
+Yes	09/10/2020 12:39 PM (UTC)	9355	Activator endpoint probing can race with pre-stop hook	https://github.com/knative/serving/issues/9355	control-plane, controller-interactions, status-conditions
+Yes	08/31/2020 9:32 PM (UTC)	9238	config-defaults ConfigMap should not show the default values of CPU and memory limit and request	https://github.com/knative/serving/issues/9238	config-difficulty
+Yes	08/13/2020 1:16 PM (UTC)	9048	Can't edit or delete service configuration due to initializer field	https://github.com/knative/serving/issues/9048	config-difficulty
+Yes	08/08/2020 11:35 AM (UTC)	8971	ksvc ready conditions go 'ready' too soon for initScale=0	https://github.com/knative/serving/issues/8971	controller-interactions, status-conditions
+Yes	08/05/2020 1:02 PM (UTC)	8922	Revision stuck in "Unknown" state when Deployment Progressing is "false" (ProgressDeadlineExceeded)	https://github.com/knative/serving/issues/8922	autoscaling, status-conditions
+Yes	08/03/2020 8:42 AM (UTC)	8889	After deleted Ksvc, route has been GC but configuration remains	https://github.com/knative/serving/issues/8889	control-plane, status-conditions
+Yes	08/01/2020 2:03 PM (UTC)	8878	Setting initial-scale more than 1 never scale down	https://github.com/knative/serving/issues/8878	autoscaling
+Yes	07/23/2020 4:57 PM (UTC)	8792	Add explicit  ResourcesReady status to PA	https://github.com/knative/serving/issues/8792	status-conditions
+Yes	07/22/2020 10:15 PM (UTC)	8761	Interaction between Autoscaler and Istio Proxy triggering memory leak	https://github.com/knative/serving/issues/8761	autoscaling, control-plane
+Yes	07/18/2020 12:48 AM (UTC)	8685	Autoscaler incorrectly keeps an instance alive	https://github.com/knative/serving/issues/8685	autoscaling, config-challenge, routing / traffic
+Yes	07/18/2020 12:28 AM (UTC)	8684	deleting a service should delete all pods, immediately	https://github.com/knative/serving/issues/8684	control-plane
+Yes	07/17/2020 9:26 AM (UTC)	8675	Failed to create/update revision with error `already exists` 	https://github.com/knative/serving/issues/8675	status-conditions
+Yes	07/08/2020 11:28 PM (UTC)	8584	Second revision results in service IngressNotConfigured when using Ambassador	https://github.com/knative/serving/issues/8584	version-semantics
+Yes	07/02/2020 6:30 AM (UTC)	8540	Rework PodAutoscaler conditions to better fit K8s readiness model	https://github.com/knative/serving/issues/8540	autoscaling, controller-interactions, invocation-semantics, status-conditions
+Yes	07/02/2020 1:29 AM (UTC)	8539	knative svc got stuck when multiple ksvc are generated in parallel and min-scale=0 	https://github.com/knative/serving/issues/8539	autoscaling, controller-interactions
+Yes	06/20/2020 9:12 PM (UTC)	8390	Inconsistent scaling	https://github.com/knative/serving/issues/8390	autoscaling, config-difficulty
+Yes	05/20/2020 6:38 AM (UTC)	8006	istio authentication policy causes knative activator healthcheck probes to fail	https://github.com/knative/serving/issues/8006	autoscaling, invocation-semantics
+Yes	05/10/2020 4:42 PM (UTC)	7903	Failed to create a ksvc due to autoscaler performance	https://github.com/knative/serving/issues/7903	autoscaling, status-conditions
+Yes	05/01/2020 8:49 PM (UTC)	7813	Knative service getting IngressNotConfigured error when scale to 30 istio ingress pods	https://github.com/knative/serving/issues/7813	status-conditions
+Yes	04/30/2020 5:27 AM (UTC)	7792	Activator Load Balancing worse than Istio Default	https://github.com/knative/serving/issues/7792	autoscaling, routing / traffic
+Yes	04/20/2020 12:25 AM (UTC)	7650	Old failing revisions don't scale down timely	https://github.com/knative/serving/issues/7650	autoscaling, controller-interactions, status-conditions, version-semantics
+Yes	03/18/2020 7:40 PM (UTC)	7305	Cross-namespace Ownerreference used in Auto TLS	https://github.com/knative/serving/issues/7305	control-plane
+Yes	03/18/2020 7:48 AM (UTC)	7294	More hosts entries in knative-ingress-gateway caused performance downgrade on creating a ksvc	https://github.com/knative/serving/issues/7294	controller-interactions, status-conditions
+Yes	03/16/2020 1:39 PM (UTC)	7264	[https enabled]IngressNotConfigured with reason "Waiting for VirtualService to be ready" or “Waiting for load balancer to be ready”	https://github.com/knative/serving/issues/7264	status-conditions
+Yes	03/13/2020 2:12 PM (UTC)	7241	[multi-container] toggling the default enable-multi-container from true to false will break things	https://github.com/knative/serving/issues/7241	config-challenge
+Yes	03/06/2020 9:35 AM (UTC)	7162	Ksvc becomes Ready status even though KCert is not ready on autoTLS	https://github.com/knative/serving/issues/7162	status-conditions
+Yes	02/21/2020 1:45 AM (UTC)	6935	minScale causes pods to be killed during deploy	https://github.com/knative/serving/issues/6935	autoscaling
+Yes	02/20/2020 1:22 PM (UTC)	6913	Service update returned true before deploying the revision	https://github.com/knative/serving/issues/6913	status-conditions
+Yes	02/14/2020 2:06 PM (UTC)	6853	Default configs not validated correctly	https://github.com/knative/serving/issues/6853	config-challenge
+Yes	02/10/2020 1:04 PM (UTC)	6793	Deploying sample helloworld.go with Istio 1.3.1 (SDS on) results in route and knative service with status IngressNotConfigured	https://github.com/knative/serving/issues/6793	status-conditions
+Yes	02/08/2020 2:53 AM (UTC)	6780	SKS in proxy mode indefinitely, always triggers scale to zero	https://github.com/knative/serving/issues/6780	config-difficulty
+Yes	02/05/2020 5:59 AM (UTC)	6733	Autoscaler with minScale specified momentarily scaled below minScale	https://github.com/knative/serving/issues/6733	control-plane, controller-interactions
+Yes	01/29/2020 7:19 PM (UTC)	6681	GRPC traffic should load balance during autoscale	https://github.com/knative/serving/issues/6681	autoscaling, routing / traffic
+Yes	01/28/2020 1:09 AM (UTC)	6648	Ingress Prober Ready -> NotReady- > Ready flip-flop	https://github.com/knative/serving/issues/6648	controller-interactions, status-conditions
+No	01/13/2020 10:03 PM (UTC)	6520	It is possible to bypass the queue-proxy	https://github.com/knative/serving/issues/6520	routing / traffic
+No	01/12/2020 1:03 AM (UTC)	6504	Failing pod never times out	https://github.com/knative/serving/issues/6504	invocation-semantics, status-conditions
+Yes	01/10/2020 7:52 AM (UTC)	6489	Get stuck in RevisionMissing/Unknown state when setting invalid user port	https://github.com/knative/serving/issues/6489	status-conditions
+Yes	01/08/2020 9:33 PM (UTC)	6471	Defaulting hindered in the presence of BYO revision names and reconciliation of resources	https://github.com/knative/serving/issues/6471	config-challenge
