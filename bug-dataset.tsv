@@ -33,7 +33,7 @@ Yes	06/24/2021 2:29 PM (UTC)	11596	502 errors with Istio Mesh	https://github.com
 No	06/15/2021 4:36 PM (UTC)	11532	targetBurstCapacity does not behave correctly when there is more than one activator pod	https://github.com/knative/serving/issues/11532	routing / traffic
 Yes	06/07/2021 1:26 PM (UTC)	11476	Service with invalid URL hangs in `IngressNotConfigured` state	https://github.com/knative/serving/issues/11476	status-conditions
 Yes	05/19/2021 1:38 PM (UTC)	11373	Traffic is briefly routed suboptimally when new Revision becomes ready	https://github.com/knative/serving/issues/11373	routing / traffic, status-conditions
-Yes	05/13/2021 8:20 AM (UTC)	11337	Revision state set to "ready" for unhealthy user-container	https://github.com/knative/serving/issues/11337	status-conditions
+Yes	05/13/2021 8:20 AM (UTC)	11337	Revision state set to \"ready\" for unhealthy user-container	https://github.com/knative/serving/issues/11337	status-conditions
 Yes	05/12/2021 5:28 PM (UTC)	11335	TLS Gateway config does not persist	https://github.com/knative/serving/issues/11335	config-challenge, config-difficulty
 No	04/19/2021 9:34 AM (UTC)	11218	minScale treatment races reachability check	https://github.com/knative/serving/issues/11218	controller-interactions
 Yes	04/12/2021 1:18 AM (UTC)	11154	Autoscaler falls back to scrape service 	https://github.com/knative/serving/issues/11154	autoscaling
